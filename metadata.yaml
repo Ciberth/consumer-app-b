@@ -1,0 +1,14 @@
+name: consumer-app-b
+summary: Consumer application (php pages/webapp) prototype b
+maintainer: student <student@student-VirtualBox>
+description: |
+  Todo 
+tags:
+  - ops
+subordinate: false
+provides:
+  website:
+    interface: http
+requires:
+  mysqlgdb:
+    interface: generic-database
