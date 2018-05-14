@@ -34,7 +34,7 @@ def waiting_for_db():
 #                                                                      #
 ########################################################################
 
-
+# todo hier moet nog een concrete flag bij, als je connect op een niet concrete gdb mag er niets gebeuren
 @when('endpoint.mysqlgdb.joined')
 @when_not('endpoint.mysqlgdb.connected')
 def connect_mysql_db():
